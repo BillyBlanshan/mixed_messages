@@ -272,7 +272,5 @@ const genStar = () => {
 
 
 
-let star1 = genStar()
-let star2 = genStar()
-let star3 = genStar();
-console.log(star1, star2, star3)
+let star1 = genStar();
+console.log(`The primary star in this system is a ${star1.type} star with a solar mass of ${star1.size}. ${star1.appearance} The Goldilocks zone for this star is ${star1.goldilocksZone}. If you discover this star system you would receive ${star1.discoveryReward}cr.`)
